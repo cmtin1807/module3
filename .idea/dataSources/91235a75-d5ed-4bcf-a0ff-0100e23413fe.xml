@@ -1000,8 +1000,8 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
     <schema id="289" parent="1" name="information_schema">
       <CollationName>utf8mb3_general_ci</CollationName>
     </schema>
-    <schema id="290" parent="1" name="mydatabase">
-      <LastIntrospectionLocalTimestamp>2024-07-16.04:11:44</LastIntrospectionLocalTimestamp>
+    <schema id="290" parent="1" name="manager_student">
+      <LastIntrospectionLocalTimestamp>2024-07-16.04:34:53</LastIntrospectionLocalTimestamp>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </schema>
     <schema id="291" parent="1" name="mysql">
@@ -1029,23 +1029,35 @@ sys|schema||mysql.sys|localhost|TRIGGER|G</Grants>
       <Host>localhost</Host>
       <Plugin>caching_sha2_password</Plugin>
     </user>
-    <table id="297" parent="290" name="teacher">
+    <table id="297" parent="290" name="class">
       <Engine>InnoDB</Engine>
       <CollationName>utf8mb4_0900_ai_ci</CollationName>
     </table>
-    <column id="298" parent="297" name="id">
+    <table id="298" parent="290" name="teacher">
+      <Engine>InnoDB</Engine>
+      <CollationName>utf8mb4_0900_ai_ci</CollationName>
+    </table>
+    <column id="299" parent="297" name="id">
       <DasType>int|0s</DasType>
       <Position>1</Position>
     </column>
-    <column id="299" parent="297" name="name">
+    <column id="300" parent="297" name="name">
       <DasType>varchar(255)|0s</DasType>
       <Position>2</Position>
     </column>
-    <column id="300" parent="297" name="age">
+    <column id="301" parent="298" name="id">
+      <DasType>int|0s</DasType>
+      <Position>1</Position>
+    </column>
+    <column id="302" parent="298" name="name">
+      <DasType>varchar(255)|0s</DasType>
+      <Position>2</Position>
+    </column>
+    <column id="303" parent="298" name="age">
       <DasType>int|0s</DasType>
       <Position>3</Position>
     </column>
-    <column id="301" parent="297" name="country">
+    <column id="304" parent="298" name="country">
       <DasType>varchar(255)|0s</DasType>
       <Position>4</Position>
     </column>

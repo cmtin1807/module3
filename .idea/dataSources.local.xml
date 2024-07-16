@@ -2,9 +2,22 @@
 <project version="4">
   <component name="dataSourceStorageLocal" created-in="IU-241.17011.79">
     <data-source name="@demo" uuid="91235a75-d5ed-4bcf-a0ff-0100e23413fe">
-      <database-info product="" version="" jdbc-version="" driver-name="" driver-version="" dbms="MYSQL_AURORA" />
+      <database-info product="MySQL" version="8.0.38" jdbc-version="4.2" driver-name="Amazon Web Services (AWS) JDBC Driver for MySQL" driver-version="aws-mysql-connector-java-1.1.14 (Revision: 4629bb4ea3ade12a811483453fafcb8fc2a66bb5)" dbms="MYSQL" exact-version="8.0.38" exact-driver-version="1.1">
+        <extra-name-characters>#@</extra-name-characters>
+        <identifier-quote-string>`</identifier-quote-string>
+        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
+      </database-info>
+      <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
-      <schema-mapping />
+      <user-name>root</user-name>
+      <schema-mapping>
+        <introspection-scope>
+          <node kind="schema">
+            <name qname="@" />
+            <name qname="manager_student" />
+          </node>
+        </introspection-scope>
+      </schema-mapping>
     </data-source>
   </component>
 </project>
