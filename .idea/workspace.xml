@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_ban_hang.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss2/thuc_hanh/create_table_CSDL.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss2/thuc_hanh/qlsp.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss2/thuc_hanh/quan_ly_sinh_vien.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/case/ung_dung_quan_ly_khu_nghi_duong_furama.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss1/bai_tap/xay_dung_co_so_du_lieu_quan_ly_sinh_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss1/bai_tap/xay_dung_co_so_du_lieu_quan_ly_sinh_vien.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -96,7 +90,7 @@
       <workItem from="1721102410407" duration="533000" />
       <workItem from="1721102952390" duration="9596000" />
       <workItem from="1721180409751" duration="616000" />
-      <workItem from="1721186510413" duration="10193000" />
+      <workItem from="1721186510413" duration="16253000" />
     </task>
     <servers />
   </component>

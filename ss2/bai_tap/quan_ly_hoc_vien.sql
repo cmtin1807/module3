@@ -98,6 +98,28 @@ select * from student where full_name like '% Anh';
 select * from student where age between 18 and 25;
 select * from student where student_id in(9,13);
 select classes_id, count(*) as student_count from student group by classes_id;
-select ad.address, COUNT(*) AS student_count FROM student st join address ad on ad.address_id = st.address_id group by ad.address ;
+select ad.address, count(*) AS student_count
+FROM student st
+join address ad on ad.address_id = st.address_id
+group by ad.address ;
+select course_id, avg(point) as avg_point
+from point
+group by course_id
+order by avg_point desc,course_id desc;
+
+select max(point) as max_point, min(point) as min_point
+from point;
+
+select upper(full_name) as full_name
+from student;
+
+select point.course_id,avg(point) as avg_max_point
+from point
+group by course_id
+order by avg_max_point desc
+limit 1;
+
+
+
 
 
