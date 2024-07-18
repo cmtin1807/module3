@@ -9,7 +9,7 @@ create table orders(
     order_id varchar(20) primary key ,
     customer_id int ,
     order_date datetime not null ,
-    order_total_price double not null,
+    order_total_price double,
     foreign key (customer_id) references customer (customer_id)
 );
 create table product(

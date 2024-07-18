@@ -13,12 +13,14 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
+            <name qname="quan_ly_ban_hang" />
+            <name qname="manager_tour" />
+            <name qname="chuyen_doi_erd" />
             <name qname="quan_ly_diem_thi" />
             <name qname="@" />
             <name qname="manager_student" />
             <name qname="product" />
             <name qname="quan_ly_sinh_vien" />
-            <name qname="quan_ly_ban_hang" />
             <name qname="quan_ly_hoc_vien" />
           </node>
         </introspection-scope>

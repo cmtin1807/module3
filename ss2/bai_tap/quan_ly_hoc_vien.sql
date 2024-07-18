@@ -100,8 +100,10 @@ select * from student where student_id in(9,13);
 select classes_id, count(*) as student_count from student group by classes_id;
 select ad.address, count(*) AS student_count
 FROM student st
-join address ad on ad.address_id = st.address_id
-group by ad.address ;
+right join address ad on ad.address_id = st.address_id
+group by ad.address
+having student_count >2;
+
 select course_id, avg(point) as avg_point
 from point
 group by course_id
