@@ -5,20 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss2/bai_tap/chuyen_doi_ERD_sang_mo_hinh_quan_he.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3/bai_tap/manager_tour.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3/bai_tap/thao_tac_quan_ly_ban_hang.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3/bai_tap/truy_van_du_lieu.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3/thuc_hanh/them_du_lieu.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss3/thuc_hanh/truy_van_du_lieu.sql" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/case/ung_dung_quan_ly_khu_nghi_duong_furama.sql" beforeDir="false" afterPath="$PROJECT_DIR$/case/ung_dung_quan_ly_khu_nghi_duong_furama.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_ban_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_ban_hang.sql" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss3/bai_tap/thao_tac_quan_ly_ban_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss3/bai_tap/thao_tac_quan_ly_ban_hang.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,28 +25,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "D:/codegym/module3",
-    "node.js.detected.package.eslint": "true",
-    "node.js.detected.package.tslint": "true",
-    "node.js.selected.package.eslint": "(autodetect)",
-    "node.js.selected.package.tslint": "(autodetect)",
-    "nodejs_package_manager_path": "npm",
-    "vue.rearranger.settings.migration": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module3&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   },
-  "keyToStringList": {
-    "DatabaseDriversLRU": [
-      "mysql_aurora_aws",
-      "mysql"
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql_aurora_aws&quot;,
+      &quot;mysql&quot;
     ],
-    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
-      "MySQL"
+    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
+      &quot;MySQL&quot;
     ]
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codegym\module3" />
@@ -104,6 +93,8 @@
       <workItem from="1721186510413" duration="16391000" />
       <workItem from="1721262796591" duration="3825000" />
       <workItem from="1721268454885" duration="17464000" />
+      <workItem from="1721296185875" duration="615000" />
+      <workItem from="1721349668548" duration="1492000" />
     </task>
     <servers />
   </component>
