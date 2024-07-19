@@ -5,8 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss4/bai_tap/practice_use_function.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss4/thuc_hanh/use_function.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -93,7 +95,7 @@
       <workItem from="1721262796591" duration="3825000" />
       <workItem from="1721268454885" duration="17464000" />
       <workItem from="1721296185875" duration="615000" />
-      <workItem from="1721349668548" duration="7024000" />
+      <workItem from="1721349668548" duration="12091000" />
     </task>
     <servers />
   </component>
