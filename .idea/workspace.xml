@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe/storage_v2/_src_/schema/quan_ly_don_hang.cuZtIA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe/storage_v2/_src_/schema/quan_ly_don_hang.cuZtIA.zip" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss4/bai_tap/practice_use_function" beforeDir="false" afterPath="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -27,28 +26,28 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;D:/codegym/module3&quot;,
-    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
-    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
-    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
-    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
-    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
-    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "D:/codegym/module3",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm",
+    "vue.rearranger.settings.migration": "true"
   },
-  &quot;keyToStringList&quot;: {
-    &quot;DatabaseDriversLRU&quot;: [
-      &quot;mysql_aurora_aws&quot;,
-      &quot;mysql&quot;
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "mysql",
+      "mysql_aurora_aws"
     ],
-    &quot;com.intellij.ide.scratch.LRUPopupBuilder$1/&quot;: [
-      &quot;MySQL&quot;
+    "com.intellij.ide.scratch.LRUPopupBuilder$1/": [
+      "MySQL"
     ]
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="D:\codegym\module3" />
@@ -59,6 +58,11 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration name="quan_ly_don_hang.sql" type="DatabaseScript" editBeforeRun="true" nameIsGenerated="true">
+      <script-file value="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" />
+      <script-mode>FILE</script-mode>
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="JetRunConfigurationType">
       <module name="module3" />
       <method v="2">
@@ -97,7 +101,9 @@
       <workItem from="1721268454885" duration="17464000" />
       <workItem from="1721296185875" duration="615000" />
       <workItem from="1721349668548" duration="13905000" />
-      <workItem from="1721372130294" duration="5445000" />
+      <workItem from="1721372130294" duration="6125000" />
+      <workItem from="1721379174838" duration="727000" />
+      <workItem from="1721379914462" duration="715000" />
     </task>
     <servers />
   </component>

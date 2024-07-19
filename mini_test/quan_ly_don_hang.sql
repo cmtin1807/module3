@@ -255,3 +255,88 @@ SELECT
 FROM ct_phieu_xuat ctpx
          JOIN phieu_xuat px ON ctpx.id_phieu_xuat = px.id_phieu_xuat
          JOIN vat_tu vt ON ctpx.id_vat_tu = vt.id_vat_tu;
+
+DELIMITER //
+
+CREATE PROCEDURE sp_TongSLCuoiVatTu (
+    IN p_id_vat_tu INT,
+    OUT p_tong_sl_cuoi INT
+)
+BEGIN
+    SELECT SUM(sl_dau + tsl_nhap - tsl_xuat)
+    INTO p_tong_sl_cuoi
+    FROM ton_kho
+    WHERE id_vat_tu = p_id_vat_tu;
+END//
+
+DELIMITER ;
+DELIMITER //
+CREATE PROCEDURE sp_TongTienXuatVatTu (
+    IN p_id_vat_tu INT,
+    OUT p_tong_tien_xuat INT
+)
+BEGIN
+    SELECT SUM(ct_phieu_xuat.sl_xuat*ct_phieu_xuat.dg_xuat)
+    into p_tong_tien_xuat
+        FROM ct_phieu_xuat
+            where id_vat_tu = p_id_vat_tu;
+end //
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE sp_TongSLDatTheoDonHang (
+    IN p_id_don_hang INT,
+    OUT p_tong_sl_dat INT
+)
+BEGIN
+    SELECT SUM(ctdh.sl_dat)
+    INTO p_tong_sl_dat
+    FROM ct_don_hang ctdh
+    WHERE ctdh.id_don_hang = p_id_don_hang;
+END//
+
+DELIMITER ;
+
+DELIMITER //
+
+CREATE PROCEDURE sp_ThemDonDatHang (
+    IN p_ma_don INT,
+    IN p_ngay_dat DATE,
+    IN p_id_nha_cc INT
+)
+BEGIN
+    INSERT INTO don_dat_hang (ma_don, ngay_dat_hang, id_nha_cc)
+    VALUES (p_ma_don, p_ngay_dat, p_id_nha_cc);
+END//
+
+DELIMITER ;
+DELIMITER //
+
+CREATE PROCEDURE sp_ThemChiTietDonDatHang (
+    IN p_id_don_hang INT,
+    IN p_id_vat_tu INT,
+    IN p_sl_dat INT
+)
+BEGIN
+    INSERT INTO ct_don_hang (id_don_hang, id_vat_tu, sl_dat)
+    VALUES (p_id_don_hang, p_id_vat_tu, p_sl_dat);
+END//
+
+DELIMITER ;
+DELIMITER //
+
+CREATE PROCEDURE sp_XoaNhaCungCap (
+    IN p_id_nha_cc INT
+)
+BEGIN
+    UPDATE don_dat_hang
+    SET id_nha_cc = NULL
+    WHERE id_nha_cc = p_id_nha_cc;
+
+    DELETE FROM nha_cc
+    WHERE id_nha_cc = p_id_nha_cc;
+END//
+
+DELIMITER ;
+
