@@ -29,11 +29,11 @@ FROM customer c
          LEFT JOIN orders o ON c.customer_id = o.customer_id
          LEFT JOIN order_detail od ON o.order_id = od.order_id
          LEFT JOIN product p ON od.product_id = p.product_id;
-
-SELECT c.customer_id, c.customer_name
+#C1
+SELECT o.customer_id, c.customer_name
 FROM customer c
          LEFT JOIN orders o ON c.customer_id = o.customer_id
-WHERE o.order_id IS NULL;
+WHERE o.customer_id IS NULL;
 
 SELECT o.order_id AS MaHoaDon, o.order_date AS NgayBan,
        SUM(od.order_detail_qty * p.product_price) AS GiaTien

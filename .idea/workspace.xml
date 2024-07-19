@@ -5,9 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ss3/bai_tap/thao_tac_quan_ly_ban_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss3/bai_tap/thao_tac_quan_ly_ban_hang.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" beforeDir="false" afterPath="$PROJECT_DIR$/ss2/bai_tap/quan_ly_hoc_vien.sql" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -94,7 +93,7 @@
       <workItem from="1721262796591" duration="3825000" />
       <workItem from="1721268454885" duration="17464000" />
       <workItem from="1721296185875" duration="615000" />
-      <workItem from="1721349668548" duration="1492000" />
+      <workItem from="1721349668548" duration="7024000" />
     </task>
     <servers />
   </component>

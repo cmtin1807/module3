@@ -115,11 +115,23 @@ from point;
 select upper(full_name) as full_name
 from student;
 
-select point.course_id,avg(point) as avg_max_point
+
+select course.course_name,avg(point) as avg_max_point
 from point
-group by course_id
+join course on point.course_id = course.course_id
+group by course.course_name
 order by avg_max_point desc
 limit 1;
+
+SELECT course.course_name
+FROM point
+         JOIN course ON point.course_id = course.course_id
+GROUP BY course.course_name
+ORDER BY AVG(point.point) DESC
+LIMIT 1;
+create view nguyen(
+
+    )
 
 
 
