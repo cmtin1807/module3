@@ -4,71 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Giao Diện Flexbox</title>
-    <link rel="stylesheet" href="test.css">
-    <style>
-        body {
-            margin: 10px;
-            font-family: Arial, sans-serif;
-        }
-        .container {
-            display: flex;
-            flex-direction: column;
-            height: 100vh;
-        }
-        .header, footer {
-            background-color: #4CAF50;
-            color: red;
-            text-align: center;
-            padding: 1rem;
-        }
-        .content {
-            flex: 1;
-            display: flex;
-            background-color: #f1f1f1;
-        }
-        .sidebar {
-            width: 200px;
-            background-color: #333;
-            color: white;
-            padding: 1rem;
-        }
-        .main {
-            flex: 1;
-            padding: 1rem;
-        }
-        p {
-            margin-bottom: 1rem;
-        }
-    </style>
+
 </head>
+<style>
+    body {
+        margin: 0;
+        font-family: Arial, sans-serif;
+    }
+    container {
+        display: flex;
+        flex-direction: column;
+        height: 100vh;
+    }
+    header, footer {
+        background-color: #4CAF50;
+        color: white;
+        text-align: center;
+        padding: 1rem;
+    }
+    content {
+        flex: 1;
+        display: flex;
+        background-color: #f1f1f1;
+    }
+    sidebar {
+        width: 200px;
+        background-color: #333;
+        color: white;
+        padding: 1rem;
+    }
+    main {
+        flex: 1;
+        padding: 1rem;
+    }
+    p {
+        margin-bottom: 1rem;
+    }
+</style>
+
 <body>
-<div class="container">
-    <div class="header">
-        <h1>Chào Mừng Đến Với Trang Web Của Tôi</h1>
-        <p>Đây là phần đầu trang, nơi bạn có thể đặt tiêu đề hoặc khẩu hiệu của trang web.</p>
-    </div>
-    <div class="content">
-        <div class="sidebar">
-            <h2>Thanh Bên</h2>
-            <p>Đây là thanh bên. Bạn có thể thêm các liên kết, quảng cáo hoặc thông tin bổ sung ở đây.</p>
-            <ul>
-                <li><a href="https://www.google.com/" style="color: white;">Trang Chủ</a></li>
-                <li><a href="https://www.google.com/" style="color: white;">Giới Thiệu</a></li>
-                <li><a href="https://www.google.com/" style="color: white;">Dịch Vụ</a></li>
-                <li><a href="https://www.google.com/" style="color: white;">Liên Hệ</a></li>
-            </ul>
-        </div>
-        <div class="main">
-            <h2>Nội Dung Chính</h2>
-            <p>Đây là khu vực nội dung chính. Ở đây bạn có thể đặt các thông tin chính mà bạn muốn khách truy cập đọc.</p>
-            <p>Nguyễn Đức Thảo Nguyên</p>
-            <p>C0424G1-JV101</p>
-        </div>
-    </div>
-    <footer>
-        <p>&copy; 2024 Trang Web Của Tôi. Bảo Lưu Mọi Quyền.</p>
-        <p>Liên hệ với chúng tôi tại <a href="mailto:info@mywebsite.com" style="color: white;">info@mywebsite.com</a></p>
-    </footer>
-</div>
+
 </body>
+
 </html>

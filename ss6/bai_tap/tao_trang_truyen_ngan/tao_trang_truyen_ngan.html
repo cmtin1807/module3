@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>WEB TRUYỆN LẬU SỐ 1 THẾ GIỚI</title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background-color: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1em 0;
+        }
+        header .logo{
+            display: flex;
+            align-items: center;
+        }
+        header .logo img{
+            margin: 0 400px 0 50px;
+            text-align: center;
+            height: 100px;
+        }
+
+        nav {
+            background-color: #333;
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        nav ul li {
+            margin: 0 10px;
+        }
+        nav ul li a {
+            display: block;
+            color: white;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        nav ul li a:hover {
+            background-color: #111;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            margin: 50px;
+            justify-content: center;
+
+        }
+        .sidebar {
+            margin-left: 50px;
+            width: 30%;
+            background-color: white;
+        }
+        .sidebar ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+        }
+        .sidebar ul li {
+            box-shadow: 0 4px 5px 0 yellow;
+            margin: 0 200px 0 0;
+        }
+        .sidebar ul li a {
+            display: block;
+            color: green;
+            text-align: left;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+        .sidebar ul li a:hover {
+            background-color: deeppink;
+        }
+        .content {
+            flex: 1;
+            min-width: 200px;
+            background-color: #f9f9f9;
+            padding: 20px;
+        }
+        footer {
+            background-color: #333;
+            color: white;
+            text-align: center;
+            padding: 10px 0;
+            position: relative;
+            bottom: 0;
+            width: 100%;
+        }
+        .index-intro {
+            display: flex;
+        }
+        .index-intro .item {
+            margin: 12px;
+            height: 192px;
+            width: 129px;
+            position: relative;
+        }
+        .index-intro .title {
+            position: absolute;
+            bottom: 0;
+            width: 100%;
+            color: #f4f4f4;
+            background-color: rgba(0, 0, 0, 0.6);
+            font-size: 12px;
+            text-align: center;
+            font-family: 'Roboto Condensed', Tahoma, sans-serif;
+        }
+        .index-intro .item .item-img {
+            box-shadow: 0 10px 2px #b5b5b5;
+            width: 129px;
+            height: 192px;
+        }
+    </style>
+</head>
+<body>
+<header>
+    <div class="logo">
+        <img src="https://i.pinimg.com/564x/d1/db/bb/d1dbbbfd7e897e721041418670d8714a.jpg">
+        <h1>WEB TRUYỆN LẬU SỐ 1 THẾ GIỚI</h1>
+    </div>
+
+
+</header>
+
+<nav>
+    <ul>
+        <li><a href="#home">Trang Chủ</a></li>
+        <li><a href="#about">Danh Sách</a></li>
+        <li><a href="#services">Thể Loại</a></li>
+        <li><a href="#contact">Truyện Tranh</a></li>
+    </ul>
+</nav>
+
+<div class="container">
+    <aside class="sidebar">
+        <h2>Sidebar</h2>
+        <ul>
+            <li><a href="#link1">Tiên Hiệp</a></li>
+            <li><a href="#link2">Kiếm Hiệp</a></li>
+            <li><a href="#link3">Ngôn Tình</a></li>
+            <li><a href="#link4">Đam Mỹ</a></li>
+            <li><a href="#link5">Võng Du</a></li>
+            <li><a href="#link6">Quan Trường</a></li>
+        </ul>
+    </aside>
+
+    <main class="content">
+        <div class="index-intro">
+            <div class="item">
+                <a href="#" itemprop="url">
+                    <img src="https://lh3.googleusercontent.com/-GNw2gVQUYEg3v1TkO8hE_Tuu8dJGevVFNGTlN9cLfVDmesxkPb5gFutNpdKa9o9m5SWOkgXjcyDXTdG9JU=w125-h155-c?authuser=0" alt="Âm Quan Minh Thê" class=" item-img">
+                    <div class="title">
+                        <h3 itemprop="name">Âm Quan Minh Thê</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="https://lh3.googleusercontent.com/pw/AIL4fc-BV58s_mFbXosakwhGx7lqwtD4g9zQ7_TLjLkSvx5zejJ2hzpbr6oWKD8LPs0NLJCwZpdLy_Rr5e7aDX6Q0PCAruHj8V6oh7J8K7v5AxQKbdkvANhGuafTrUUsS8hNSeHjX3rHXUF4drVko4g2rWBq=w215-h322-s-no?authuser=0" class="item-img" >
+                    <div class="title">
+                        <h3 itemprop="name">Tự Cẩm</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+        <div class="index-intro">
+            <div class="item">
+                <a href="#">
+                    <img src="https://static.8cache.com/cover/eJzLyTDW163MTDcPSAsrt4z3qUwrSIwqs3CqqDQusTCryPbNcwtKqnANNy1ONTPPKQz0yvIJMSgKz4ysSjP2TknKdAwPDw9Nt3APq8wKMUxKCg7wMwmzLTcyNNXNMDYyAgD-FB8x/ngao-the-dan-than.jpg"  class=" item-img" >
+                    <div class="title">
+                        <h3 itemprop="name">Ngạo Thế Đan Thần</h3>
+                    </div>
+                </a>
+            </div>
+            <div class="item">
+                <a href="#">
+                    <img src="https://lh3.googleusercontent.com/pw/AJFCJaVjuIBFnTKQ5soBnZlRWVtCxD3sg1ILwmCHYgnNBJtHdpQlmtRRAJm28EmxtxPtR3UE8bxLUMLsf_PCPFivFFj_YYYnnkXgbjPUyBdCzx1TaicW3dK17dpLz7pSoYMq0muNmrmYxWjTwey3ThHPBdgt=w215-h322-s-no?authuser=0"  class="item-img" itemprop="image">
+                    <div class="title">
+                        <h3>Nàng Không Muốn Làm Hoàng Hậu</h3>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </main>
+</div>
+
+<footer>
+    <p>Mọi vấn đề xin liên hệ</p>
+    <p>Nguyễn Đức Thảo Nguyên</p>
+    <p>C0424G1</p>
+</footer>
+</body>
+</html>

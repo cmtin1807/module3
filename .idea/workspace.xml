@@ -5,6 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/dinh_dang_van_ban/dinh_dang_van_ban.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/dinh_dang_van_ban/dinh_dang_van_ban.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/nhung_css_vao_html/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/nhung_css_vao_html/nhung_css_vao_html.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/tao_trang_truyen_ngan/styles.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/bai_tap/tao_trang_truyen_ngan/tao_trang_truyen_ngan.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss6/thuc_hanh/use_css.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/css.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/hi1.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/nguyen.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/style.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ss8/tesst.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ss6/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/test.html" afterDir="false" />
     </list>
@@ -64,6 +76,7 @@
       <recent name="D:\codegym\module3" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\codegym\module3\ss6\bai_tap\nhung_css_vao_html" />
       <recent name="D:\codegym\module3\ss1\bai_tap" />
       <recent name="D:\codegym\module3\ss1" />
     </key>
@@ -117,7 +130,7 @@
       <workItem from="1721379914462" duration="940000" />
       <workItem from="1721608085834" duration="2662000" />
       <workItem from="1721612762913" duration="17638000" />
-      <workItem from="1721694566173" duration="7118000" />
+      <workItem from="1721694566173" duration="25357000" />
     </task>
     <servers />
   </component>
