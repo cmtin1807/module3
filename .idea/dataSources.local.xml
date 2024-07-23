@@ -5,7 +5,6 @@
       <database-info product="MySQL" version="8.0.38" jdbc-version="4.2" driver-name="Amazon Web Services (AWS) JDBC Driver for MySQL" driver-version="aws-mysql-connector-java-1.1.14 (Revision: 4629bb4ea3ade12a811483453fafcb8fc2a66bb5)" dbms="MYSQL" exact-version="8.0.38" exact-driver-version="1.1">
         <extra-name-characters>#@</extra-name-characters>
         <identifier-quote-string>`</identifier-quote-string>
-        <jdbc-catalog-is-schema>true</jdbc-catalog-is-schema>
       </database-info>
       <case-sensitivity plain-identifiers="lower" quoted-identifiers="lower" />
       <secret-storage>master_key</secret-storage>
@@ -13,16 +12,19 @@
       <schema-mapping>
         <introspection-scope>
           <node kind="schema">
-            <name qname="quan_ly_don_hang" />
-            <name qname="quan_ly_ban_hang" />
-            <name qname="manager_tour" />
-            <name qname="chuyen_doi_erd" />
-            <name qname="quan_ly_diem_thi" />
             <name qname="@" />
+            <name qname="chuyen_doi_erd" />
+            <name qname="classicmodels" />
+            <name qname="company" />
+            <name qname="demo" />
             <name qname="manager_student" />
+            <name qname="manager_tour" />
             <name qname="product" />
-            <name qname="quan_ly_sinh_vien" />
+            <name qname="quan_ly_ban_hang" />
+            <name qname="quan_ly_diem_thi" />
+            <name qname="quan_ly_don_hang" />
             <name qname="quan_ly_hoc_vien" />
+            <name qname="quan_ly_sinh_vien" />
           </node>
         </introspection-scope>
       </schema-mapping>

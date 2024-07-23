@@ -270,6 +270,10 @@ BEGIN
 END//
 
 DELIMITER ;
+
+CALL sp_TongSLCuoiVatTu(1,@p_tong_sl_cuoi);
+SELECT @p_tong_sl_cuoi;
+DELIMITER ;
 DELIMITER //
 CREATE PROCEDURE sp_TongTienXuatVatTu (
     IN p_id_vat_tu INT,
@@ -339,4 +343,11 @@ BEGIN
 END//
 
 DELIMITER ;
+use quan_ly_don_hang;
+
+Create unique index haiz
+on vat_tu(ma_vat_tu);
+
+drop index haiz on vat_tu;
+
 

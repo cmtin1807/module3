@@ -1,0 +1,35 @@
+<style>
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+.container {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+.header, .footer {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+.content {
+    flex: 1;
+    display: flex;
+    background-color: #f1f1f1;
+}
+.sidebar {
+    width: 200px;
+    background-color: #333;
+    color: white;
+    padding: 1rem;
+}
+.main {
+    flex: 1;
+    padding: 1rem;
+}
+p {
+    margin-bottom: 1rem;
+}
+</style>

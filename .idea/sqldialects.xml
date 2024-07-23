@@ -17,5 +17,11 @@
     <file url="file://$PROJECT_DIR$/ss3/thuc_hanh/truy_van_du_lieu.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss4/bai_tap/practice_use_function.sql" dialect="MySQL" />
     <file url="file://$PROJECT_DIR$/ss4/thuc_hanh/use_function.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/bai_tap/view_index_store_procudure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/thuc_hanh/mysql_sample_datebase.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/thuc_hanh/store_procudure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/thuc_hanh/trigger_in_mysql.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/thuc_hanh/truyen_tham_so_vao_store_procudure.sql" dialect="MySQL" />
+    <file url="file://$PROJECT_DIR$/ss5/thuc_hanh/view_in_mysql.sql" dialect="MySQL" />
   </component>
 </project>
