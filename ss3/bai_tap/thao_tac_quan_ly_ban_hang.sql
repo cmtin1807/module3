@@ -40,4 +40,4 @@ SELECT o.order_id AS MaHoaDon, o.order_date AS NgayBan,
 FROM orders o
          JOIN order_detail od ON o.order_id = od.order_id
          JOIN product p ON od.product_id = p.product_id
-GROUP BY o.order_id, o.order_date;
+GROUP BY o.order_id;

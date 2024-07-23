@@ -18,5 +18,5 @@ where mark.mark >= ALL(
 SELECT student.student_id,student_name,address,phone,status,avg(mark) as diem_tb
 FROM student
 JOIN mark on student.student_id = mark.student_id
-group by student_id, student_name, address, phone, status
+group by student_id
 order by diem_tb desc ;

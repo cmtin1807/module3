@@ -5,20 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e8c5ab13-76d7-48b0-87ca-1019c55d1b5f" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ss5/bai_tap/view_index_store_procudure.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/thuc_hanh/mysql_sample_datebase.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/thuc_hanh/store_procudure.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/thuc_hanh/trigger_in_mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/thuc_hanh/truyen_tham_so_vao_store_procudure.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss5/thuc_hanh/view_in_mysql.sql" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/test.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ss6/test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources.local.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources.local.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe/storage_v2/_src_/schema/quan_ly_don_hang.cuZtIA.zip" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/91235a75-d5ed-4bcf-a0ff-0100e23413fe/storage_v2/_src_/schema/quan_ly_don_hang.cuZtIA.zip" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/sqldialects.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/sqldialects.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" beforeDir="false" afterPath="$PROJECT_DIR$/mini_test/quan_ly_don_hang.sql" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ss6/test.html" beforeDir="false" afterPath="$PROJECT_DIR$/ss6/test.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -129,7 +117,7 @@
       <workItem from="1721379914462" duration="940000" />
       <workItem from="1721608085834" duration="2662000" />
       <workItem from="1721612762913" duration="17638000" />
-      <workItem from="1721694566173" duration="2222000" />
+      <workItem from="1721694566173" duration="7118000" />
     </task>
     <servers />
   </component>
